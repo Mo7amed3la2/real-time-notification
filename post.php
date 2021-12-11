@@ -1,10 +1,7 @@
 <?php
-// require dirname(__DIR__) . '/vendor/autoload.php';
 
-// post.php ???
-// This all was here before  ;)
 $entryData = array(
-    'category' => 'kittensCategory', 'title'    => 'title', 'article'  => 'article', 'when'     => time()
+    'category' => $_GET['category'], 'title'    => $_GET['title'], 'article'  => $_GET['article'], 'when'     => time()
 );
 
 
