@@ -9,7 +9,7 @@
 
     <script src="/ratchet/js/autobahn.js"></script>
     <script>
-        var conn = new ab.Session('ws://localhost:8080',
+        var conn = new ab.Session('ws://org1.tamkeentechlab.com:8080',
             function() {
                 conn.subscribe('News', function(topic, data) {
                     // This is where you would add the new article to the DOM (beyond the scope of this tutorial)
