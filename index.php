@@ -7,7 +7,7 @@
 <body>
     <h1>Welcome to Home</h1>
 
-    <script src="/ratchet/js/autobahn.js"></script>
+    <script src="https://org1.tamkeentechlab.com/js/autobahn.js"></script>
     <script>
         var conn = new ab.Session('ws://org1.tamkeentechlab.com:8080',
             function() {
