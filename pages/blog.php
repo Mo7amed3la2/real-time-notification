@@ -9,7 +9,7 @@
 
     <script src="https://org1.tamkeentechlab.com/js/autobahn.js"></script>
     <script>
-        var conn = new ab.Session('wss:org1.tamkeentechlab.com:8080',
+        var conn = new ab.Session('wss:org1.tamkeentechlab.com:8090',
             function() {
                 conn.subscribe('Blog', function(topic, data) {
                     // This is where you would add the new article to the DOM (beyond the scope of this tutorial)
