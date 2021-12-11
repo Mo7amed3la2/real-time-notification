@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Welcome to Home </title>
+    <title>Welcome to News </title>
 </head>
 
 <body>
-    <h1>Welcome to Home</h1>
+    <h1>Welcome to News</h1>
 
     <script src="/ratchet/js/autobahn.js"></script>
     <script>
         var conn = new ab.Session('ws://localhost:8080',
             function() {
-                conn.subscribe('Home', function(topic, data) {
+                conn.subscribe('News', function(topic, data) {
                     // This is where you would add the new article to the DOM (beyond the scope of this tutorial)
-                    console.log('New Home published to category "' + topic + '" : ' + data.title);
+                    console.log('New News published to category "' + topic + '" : ' + data.title);
                 });
             },
             function() {
