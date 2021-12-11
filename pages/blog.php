@@ -1,3 +1,8 @@
+<?php
+var_dump(class_exists('ZMQContext'));
+
+?>
+
 <!DOCTYPE html>
 
 <head>
