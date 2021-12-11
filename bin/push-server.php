@@ -29,3 +29,5 @@ $webServer = new Ratchet\Server\IoServer(
 );
 
 $loop->run();
+
+var_dump(class_exists('ZMQContext'));
